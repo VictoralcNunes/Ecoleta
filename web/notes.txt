@@ -1,0 +1,13 @@
+//JSX: sintaxe de XML dentro do JS
+
+// quando instalamos um "npm install @types" devemos colocar com o "-D" no final.
+// quando fazemos o build, o typescript todo é convertido para JS e não precisamos dessas dependencias em prod
+
+//o componente Link do react-router-dom permite termos um SPA (não fica carregando a pag sempre)
+
+//Leaflet
+    mapa open source 
+    react-leaflet.js.org: para integrar o leaflet na nossa aplicação
+
+// google: typescript react cheat sheet
+    informações sobre funções mais utilizadas 

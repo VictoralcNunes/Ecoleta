@@ -1,0 +1,16 @@
+npx create-react-app my-app --template typescript
+
+limpar o codigo com o que não precisamos
+
+ctrl+shift+p > preferences open settings json > adicionar as linhas abaixo
+     "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {"javascript": "javascriptreact"}
+
+npm install react-icons
+npm install @types/react @types/react-dom -D // caso tenha problema após instalar o react-icons
+npm install react-router-dom
+npm install @types/react-router-dom -D
+npm install leaflet react-leaflet
+npm install @types/react-leaflet -D
+npm install axios
+// "noImplicitAny": false

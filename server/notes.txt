@@ -1,0 +1,12 @@
+Request Params: parametros que vem na propria rota que identifica um recurso
+
+Query Params: parametros que vem na propria rota que geralmente são opcionais para filtros, paginação e etc
+
+Request Body: parametros para criação/atualização de informações
+
+KNEX.js:
+    para BDs relacionais
+
+migrations = historico do banco de dados
+    na pasta de migrations, criar os arquivos de tabelas na ordem em que elas devem ser criadas
+    

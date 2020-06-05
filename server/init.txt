@@ -1,0 +1,20 @@
+npm init -y
+npm install express
+criar a pasta src
+npm install typescript -D
+npx tsc --init //inicia o typescript
+npm install @types/express //para usar express no ts
+npm install ts-node -D //para usar ts no node
+npx ts-node src/server.ts
+npm install ts-node-dev -D
+npm ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts
+criar script "dev" no package.json
+npm install knex //para conexão com BD
+npm install sqlite3
+    npx knex --knexfile knexfile.ts migrate:latest
+    obs: para criar de novo, podemos excluir o db criado e rodar o comando novamente
+criar seeds do db
+    npx knex --knexfile knexfile.ts seed:run
+
+npm install cors //o cors serve para dizer quais urls tem acesso a sua aplicação
+npm install @types/cors -D //instala o tipo do cors pro TS (-D = apenas dev)
